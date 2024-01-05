@@ -1,0 +1,108 @@
+@media only screen and (max-width: 1200px) {
+  .layer2{
+    width: 70%;
+  }
+  .layer1{
+    width: 29%;
+  }
+}
+@media only screen and (max-width: 1100px){
+  .liActiveTemp {
+    padding-block: 25px;
+    padding-inline: 5px;
+  }
+  .liActiveTemp:hover {
+    padding-bottom: -10px;
+  }
+}
+@media only screen and (max-width: 900px){
+  .liActiveTemp {
+    padding-block: 20px;
+    padding-inline: 2px;
+  }
+  .liActiveTemp:hover {
+    padding-bottom: -1px;
+    text-align: center;
+  }
+  i{
+    font-size: 20px;
+  }
+  span{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  .abc{
+    height: 150vh;
+    flex-direction: column;
+  }
+  .cont {
+    width: 25%;
+    height: 350px;
+  }
+  .layer2{
+   width: 100% ;
+   margin-top: 15px;
+  }
+  .layer1{
+    width: 85% ;
+  }
+  .AAA{
+    width: 90%;
+    margin: auto;
+  }
+  }
+  @media only screen and (max-width: 560px) {
+     .layer2{
+      display: none;
+     }
+     .abc{
+      height: 120vh;
+     }
+  }
+  @media only screen and (max-width: 480px) {
+    .abc{
+      height: 80vh;
+      flex-direction: column;
+    }
+    .cont {
+      width: 10%;
+      height: 250px;
+    }
+    .layer2{
+     width: 60% ;
+     margin-top: 10px;
+    }
+    .layer1{
+      width: 60% ;
+    }
+    .AAA{
+      width: 70%;
+      margin: auto;
+    }
+     nav .container {
+      flex-direction: column;
+     }
+     section{
+      overflow: hidden;
+     }
+    }
+    @media only screen and (max-width: 300px){
+      .navbar-brand{
+        display: none;
+      }
+    }
+    @media only screen and (max-width: 480px){
+      h2, p,h3{
+        font-size: 15px;
+      }
+      .layer3 .one, .layer3 .two, .layer3 .h3_left{
+        font-size: 15px;
+      }
+    }
+    @media only screen and (max-width: 200px){
+      h2, p,h3{
+        font-size: 6px;
+      }
+    }

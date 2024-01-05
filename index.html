@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <!-- ^ icon -->
+    <link rel="icon" href="image/logo.png">
+    <!-- ^ font -->
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Alegreya:wght@700&family=Amatic+SC:wght@700&family=Inter&family=Nanum+Gothic+Coding&family=Open+Sans&family=Pacifico&family=Rethink+Sans:ital@1&family=Roboto:wght@700&family=Rubik+Bubbles&family=Stylish&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Alegreya:wght@700&family=Amatic+SC:wght@700&family=Inter&family=Open+Sans&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <!-- ^ fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- ^ bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- ^ main -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- ^ media -->
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <section>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand fs-2" href="index.html">
+          <img src="image/back.jpg" alt="" width="35" height="35" class="d-inline-block align-text-top pt-2" > Weather
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto pb-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">LiveCameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      <div class="abc">
+        <div class="layer1 cont">
+          <div>
+            <h2 id="hDay"></h2> 
+            <p id="hDate"></p> 
+            <p id="hLocat"></p> 
+            <h1 class="h1_left" id="hTemp">°C</h1> 
+            <h3 class="h3_left" id="hWeather"></h3>
+          </div>
+        </div>
+        <div class="layer2 loc cont">
+                <input type="text" name="" id="search" placeholder="Find your location ...">
+          <div class="locat3">
+            <ul class="loc" id="cart">
+  
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container2">
+        <div class="row" id="DayRow">
+     
+        </div>
+      </div>
+  </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
